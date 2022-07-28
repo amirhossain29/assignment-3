@@ -250,45 +250,61 @@
           <!-- Working part End-->
 
 
-        <!-- enroll part -->
+        <!--Registration part -->
 
-        <div class="container d-flex flex-column flex-md-column flex-lg-row justify-content-around align-items-center bg-primary opacity-75 p-5 rounded-4 text-white mt-5">
-          <div class="m-5">
-            <h1 class="fw-bold display-4">Ready to join?</h1>
-            <p>We have many kind  of  courses.You  can develop your skill by  enroll. <it class="br">Please enroll! </it> </p>
-          </div>
-          <div>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-outline-dark bg-white text-primary fw-bold py-3 px-5 " data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Enroll Now
-            </button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Login Course</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <form>
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <section id="register">
+          <div class="container">
+            <div class="row align-items-center bg-primary rounded p-5">
+              <!-- Regitration left side  -->
+              <div class="text-white col-lg-6 text-center text-lg-start">
+                <h1>Ready to join?</h1>
+                <p class="mb-0">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+              <!-- modal button section -->
+              <div class="col-lg-6 text-center text-lg-end my-3">
+                <div class="modal fade" id="exampleModalToggle" aria-labelledby="exampleModalToggleLabel" tabindex="-1" aria-hidden="true" style="display: none;">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header bg-primary">
+                        <h5 class="modal-title mx-auto text-white" id="exampleModalToggleLabel">
+                          Registration Form
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      <div class="modal-body">
+                        <div class="form">
+                          <div class="input-group mb-2">
+                            <input type="text" class="form-control" placeholder="First Name">
+                          </div>
+                          <div class="input-group mb-2">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                          </div>
+                          <div class="input-group mb-2">
+                            <input type="email" class="form-control" placeholder="Email">
+                          </div>
+                          <div class="input-group mb-2">
+                            <input type="password" class="form-control" placeholder="Password">
+                          </div>
+                        </div>
                       </div>
-                       <button type="submit" class="btn btn-outline-dark py-2 px-4">Submit</button>
-                    </form>
+                      <div class="modal-footer">
+                        <span class="position-absolute start-0 ms-3">Already have a account? <a href="#">Click</a></span>
+                        <input class="btn btn-primary" type="submit" value="Register">
+                        <input class="btn btn-primary" type="reset" value="Reset">
+                        
+                      </div>
+                    </div>
                   </div>
                 </div>
+                <a class="btn bg-white text-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Enroll End -->
+        </section>
+        <!-- Registretion End -->
         <div class="container mt-5 mb-5">
           <h1 class="fw-bold">Meet Our Successfull <br> Students</h1>
           <p>There are some few successfull students of our institite.</p>
